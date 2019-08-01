@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.3), 0 0 24px 0 rgba(0, 0, 0, 0.22);
+    background-color: #21242b;
+    align-items: center;
+  }
+  
+  .message {
+    font-size: 19px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #e0e0e0;
+  }
+  
+  .buttonContainer {
+    margin-top: 40px;
+    width: 140px;
+  }
+  
+  .isFill {
+    background-color: #00b142;
+  }
+  

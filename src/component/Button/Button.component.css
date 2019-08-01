@@ -1,0 +1,21 @@
+.button {
+    height: 48px;
+    border-radius: 2px;
+    border: solid 2px #00b142;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #e0e0e0;
+    padding: 0px 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: calc(100% - 16px);
+    text-overflow: ellipsis;
+  }
+  
+  .button:disabled {
+    opacity: 0.4;
+  }
+  

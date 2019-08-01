@@ -1,0 +1,60 @@
+.input input {
+    display: none;
+  }
+  
+  .input input:checked + label {
+    color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .input input:checked + label:before {
+    display: block;
+  }
+  
+  .input input:checked + label:after {
+    background-color: #00b142;
+    border: none;
+  }
+  
+  .input label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 15px;
+    color: #e0e0e0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-weight: 500;
+    text-align: right;
+    padding-right: 45px;
+  }
+  
+  .input label:before,
+  .input label:after {
+    position: absolute;
+    content: '';
+  }
+  
+  .input label:after {
+    top: 2px;
+    right: 7px;
+    z-index: 2;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 2px solid #00b142;
+  }
+  
+  .input label:before {
+    top: 4px;
+    right: 13px;
+    z-index: 3;
+    width: 6px;
+    height: 11px;
+    background-color: transparent;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    display: none;
+  }
+  

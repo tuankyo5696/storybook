@@ -1,0 +1,13 @@
+.loading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+  }
+  .loading-container .loading-img {
+    opacity: 0.5;
+    width: 200px;
+    height: 200px;
+  }
+  
