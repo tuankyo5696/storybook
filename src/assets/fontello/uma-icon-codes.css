@@ -1,0 +1,18 @@
+
+.icon-ic_cart:before { content: '\e800'; } /* '' */
+.icon-ic_home:before { content: '\e801'; } /* '' */
+.icon-th-list:before { content: '\e802'; } /* '' */
+.icon-ic_drop_down:before { content: '\e803'; } /* '' */
+.icon-ic_back:before { content: '\e804'; } /* '' */
+.icon-plus:before { content: '\e805'; } /* '' */
+.icon-ic_remove:before { content: '\e806'; } /* '' */
+.icon-ic_edit:before { content: '\e807'; } /* '' */
+.icon-ic_undo:before { content: '\e808'; } /* '' */
+.icon-ic-chat:before { content: '\e809'; } /* '' */
+.icon-minus:before { content: '\e80a'; } /* '' */
+.icon-ic_search:before { content: '\e80b'; } /* '' */
+.icon-ok:before { content: '\e80c'; } /* '' */
+.icon-ic-send:before { content: '\e80d'; } /* '' */
+.icon-picture:before { content: '\e80e'; } /* '' */
+.icon-ic_close:before { content: '\e810'; } /* '' */
+.icon-empty-list:before { content: '\e812'; } /* '' */

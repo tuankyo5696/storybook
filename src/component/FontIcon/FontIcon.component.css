@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'uma-icon';
+    src:
+      url('./../../assets/fontello/uma-icon.ttf') format('truetype');
+  }
+  
+  .icon {
+    font-family: 'uma-icon';
+  }
+  

@@ -1,0 +1,44 @@
+.modalContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 85px 10px;
+  }
+  
+  .modalContentOneColumn {
+    flex: 1;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0 45px 0;
+  }
+  
+  .colorBlock {
+    display: flex;
+    width: 150px;
+    height: 96px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 3px;
+  }
+  
+  .text {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .active {
+    border-radius: 3px;
+    border: solid 3px #ffffff;
+  }
+  @media screen and (max-width: 360px) {
+    .colorBlock {
+      width: 130px;
+    }
+  }
+  

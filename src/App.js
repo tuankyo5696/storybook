@@ -3,6 +3,7 @@ import './App.css';
 import AlertDialog from './component/AlertDialog/AlertDialog.component'
 import TextArea from './component/TextArea/TextArea.component'
 import CheckboxInput from './component/CheckboxInput/CheckboxInput.component'
+import OnlineStatusBar from './component/OnlineStatusBar/OnlineStatusBar.component'
 const App = (props) =>  {
   const [value,setValue] = useState(false)
   const handleChange = () => {
@@ -23,6 +24,7 @@ const App = (props) =>  {
         checked = {value}
       />
     </div>
+    <OnlineStatusBar/>
     </>
   );
 }
